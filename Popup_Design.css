@@ -1,0 +1,122 @@
+body {
+    color:              rgb(255, 255, 255);
+    background-color:   rgb(0, 0, 0);
+    width: 730px;
+    height: 560px;
+}
+
+.div_container {
+    max-height: 800px;
+    max-width: 500px;
+    border: 2px solid green;
+    border-radius: 7px;
+    cursor: pointer;
+    overflow: auto;
+}  
+
+.button {
+    background-color: #007700;
+    border: 1px solid #005500;
+    color: #FFF;
+    font-size: 14px;
+    transition-duration: 0.4s;
+    border-radius: 7px;
+    padding: 5px 5px;
+    text-align: center;
+    text-decoration: none;
+    display: inline-block;
+    margin: 2px 2px;
+    cursor: pointer;
+}
+.button:hover {
+    background-color: #00cc00;
+    color: white;
+}
+.button:focus {
+    background-color: #00cc00;
+    color: white;
+}
+
+.button_main{
+  border: 1px solid #ccc;
+border-radius: 10px;
+background: #111;
+  color: white;
+  padding: 5px;
+  text-align: center;
+  text-decoration: none;
+  display: inline-block;
+  font-size: 14px;
+  margin: 4px;
+  cursor: pointer;
+}
+
+.button_main:hover {
+  border: 1px solid #ccc;
+border-radius: 10px;
+background: #030;
+  color: #0c0;
+  padding: 5px;
+  text-align: center;
+  text-decoration: none;
+  display: inline-block;
+  font-size: 14px;
+  margin: 4px;
+  cursor: pointer;
+}
+
+
+/* Button Groups On Quick Access*/
+
+.btn-group button {
+  background-color: #333; /* Green background */
+  border: 1px solid #fff; /* Green border */
+  color: white; /* White text */
+  cursor: pointer; /* Pointer/hand icon */
+  float: left; /* Float the buttons side by side */
+  display: flex;
+}
+
+/* Clear floats (clearfix hack) */
+.btn-group:after {
+  content: "";
+  clear: both;
+  display: table;
+}
+
+/* Add a background color on hover */
+.btn-group button:hover {
+  background-color: #030;
+  color: #0c0;
+}
+.btn-group button:focus {
+  background-color: #000;
+  color: #0c0;
+}
+
+/* ToolTip Design */
+
+.tooltip {
+  position: relative;
+  display: inline-block;
+}
+
+.tooltip .tooltiptext {
+  width: 300px;
+  bottom: 150%;
+  left: 50%;
+  margin-left: -150px;
+  visibility: hidden;
+  background-color: black;
+  color: #fff;
+  text-align: center;
+  border: 1px solid white;
+  border-radius: 6px;
+  padding: 5px;
+  position: absolute;
+  z-index: 1;
+}
+
+.tooltip:hover .tooltiptext {
+  visibility: visible;
+}
